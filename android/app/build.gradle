@@ -52,8 +52,8 @@ android {
         applicationId "com.zrinity.getkrowd"
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
-        versionCode 2
-        versionName 1.001
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
         multiDexEnabled true
     }
 
