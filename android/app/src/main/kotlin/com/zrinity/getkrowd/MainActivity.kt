@@ -1,4 +1,4 @@
-package com.zrinity.kscanner
+package com.zrinity.getkrowd
 
 import io.flutter.embedding.android.FlutterActivity
 
