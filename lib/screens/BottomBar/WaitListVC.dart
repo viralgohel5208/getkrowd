@@ -96,7 +96,10 @@ class _WaitListVCState extends State<WaitListVC> {
           centerTitle: true,
           title: const Text('Wait List'),
         ),
-        body: SafeArea(
+        body:
+            // ColorFiltered(colorFilter: ColorFilter.mode(Colors.black, BlendMode.color),child: Image.asset("assets/icons/border.png"),)
+            // ColorFiltered(colorFilter: ColorFilter.mode(Colors.black, BlendMode.color),child: Image.asset("assets/icons/border.png"),)
+            SafeArea(
           minimum: const EdgeInsets.all(5),
           child:
               //SingleChildScrollView(
